@@ -82,6 +82,10 @@ th, td {
   border-bottom:1px solid #e5e5e5;
 }
 
+td {
+  white-space:pre;
+}
+
 dt {
   color:#444;
   font-weight:700;
