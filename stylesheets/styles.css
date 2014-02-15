@@ -46,7 +46,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:960px;
   margin:0 auto;
 }
 
@@ -163,10 +163,20 @@ header ul a strong {
   color:#222;
 }
 
+header .org-logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
 section {
-  width:500px;
+  width:600px;
   float:right;
   padding-bottom:50px;
+}
+
+section strong.last {
+  color: red;
 }
 
 small {
@@ -187,7 +197,7 @@ footer {
   bottom:50px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1060px) {
   
   div.wrapper {
     width:auto;
