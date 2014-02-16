@@ -2,9 +2,10 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#1b1b1b;
+  font-weight:500;
+  background:#f7f7f7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +22,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:38px;
 }
 
 h2 {
@@ -33,20 +34,20 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#01696d;
   font-weight:400;
   text-decoration:none;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
+  font-size:14px;
+  color:#1b1b1b;
   margin-top:-0.6em;
   display:block;
 }
 
 .wrapper {
-  width:960px;
+  width:980px;
   margin:0 auto;
 }
 
@@ -100,7 +101,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:290px;
   float:left;
   position:fixed;
 }
@@ -122,11 +123,11 @@ header ul {
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:270px;
+  width:280px;
 }
 
 header li {
-  width:89px;
+  width:96px;
   float:left;
   border-right:1px solid #d2d2d2;
   height:40px;
@@ -135,7 +136,7 @@ header li {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#1b1b1b;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -164,9 +165,10 @@ header ul a strong {
 }
 
 header .org-logo {
-  float: left;
-  margin-bottom: 20px;
-  width: 100px;
+  float: center;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  width: 300px;
 }
 
 section {
@@ -180,7 +182,7 @@ section strong.last {
 }
 
 small {
-  font-size:11px;
+  font-size:14px;
 }
 
 hr {
