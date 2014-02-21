@@ -54,7 +54,7 @@ a small {
 }
 
 .wrapper {
-  width:960px;
+  width:1010px;
   margin:0 auto;
 }
 
@@ -77,6 +77,7 @@ pre {
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
+  margin:3px 0 3px;
 }
 
 table {
@@ -179,7 +180,7 @@ header .org-logo {
 }
 
 section {
-  width:600px;
+  width:650px;
   float:right;
   padding-bottom:50px;
 }
