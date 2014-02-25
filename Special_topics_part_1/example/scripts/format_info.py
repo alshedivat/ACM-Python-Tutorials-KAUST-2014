@@ -14,4 +14,4 @@ f.write( "patient's age: " + str(age) + " Years\n")
 f.write( "patient's Weight: " + str(weight) + " kgs\n")
 f.write( "patient's height: " + str(height) + " Meters\n")
 
-f.close
+f.close()
